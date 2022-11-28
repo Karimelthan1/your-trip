@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 100px;
+    color: #fff;
+    padding: 20px;
+    font-family:monospace;
+    font-style: italic;
+}
+
+.parent{
+    background-image: url("../images/abden.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-bottom: 0;
+}
+
+.flex1,.flex2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 480px;
+    
+}
+.one,.two{
+    width: 50%;  
+    perspective: 600px;
+}
+.three{ 
+    perspective: 600px;
+    width: 100%;
+}
+.one{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(128, 124, 124,.6),rgba(128, 124, 124,.6)),url("../images/سياحة-مصر-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.two{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(128, 124, 124,.6),rgba(128, 124, 124,.6)),url("../images/images\ \(3\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.three{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(128, 124, 124,.6),rgba(128, 124, 124,.6)),url("../images/download\ \(9\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 600%;
+    transform:translate(150px,200px);
+    color: rgb(216, 27, 27);
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+a:hover{
+    transition: all 1.5s ease-in-out;
+    text-decoration: none;
+    background-color: #ddd;
+    color: rgb(71, 67, 67);
+}
+
+.three a{
+    transform:translate(400px,200px);
+}
+.three a:hover{
+    transition: all 1.5s ease-in-out;
+    text-decoration: none;
+    transform:translate(400px,200px);
+    background-color: #ddd;
+    color: rgb(71, 67, 67);
+}
